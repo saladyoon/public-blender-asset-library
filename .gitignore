@@ -6,3 +6,6 @@
 # Blender versions
 *.blend?
 *.blend??
+
+# Temporary folder for asset previews
+share/thumbs
