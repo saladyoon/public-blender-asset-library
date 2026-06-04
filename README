@@ -1,1 +1,10 @@
-This is my public asset library for Blender 5.1.0.
+This is my public asset library for Blender 5.2.0 (currently in Beta). It's in
+heavy work-in-progress state, so many things are yet to be implemented.
+
+The goal is to fill in as many creative assets as possible, while retaining
+rich presentation to ultimately make Blender more fun to work with.
+
+My own motivation is to create a library that holds all the things I've
+created while experimenting in Blender. I love tinkering with it, but I'm yet
+to find a niche that I want to be a part in. By creating this library, I'm
+hoping to boost my creative itch and make archiving my own artwork possible.

@@ -4,8 +4,8 @@
   <img height="128px" style="height: 128px;" src="share/icons/library.png"/>
 </div>
 
-This is my public asset library for Blender 5.1.0. It's in heavy 
-work-in-progress state, so many things are yet to be implemented.
+This is my public asset library for Blender 5.2.0 (currently in Beta). It's in 
+heavy work-in-progress state, so many things are yet to be implemented.
 
 The goal is to fill in as many creative assets as possible, while retaining
 rich presentation to ultimately make Blender more fun to work with.
