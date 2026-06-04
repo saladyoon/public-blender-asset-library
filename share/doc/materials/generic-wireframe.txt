@@ -1,7 +1,7 @@
 The Generic Wireframe is a simple bright-ish material. It's supposed to be
 used for preview images and other primitives.
 
-Its colors are based on Catppuccin Machiatto palette.
+Its colors are based on Gruvbox color scheme.
 
 Outputs
 

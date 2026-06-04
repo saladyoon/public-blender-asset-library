@@ -5,41 +5,97 @@
 @namespace "http://www.w3.org/1999/xhtml";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-body
-{
+body {
 	margin: auto;
 	padding: 4em;
 	min-width: 40ch;
-	max-width: 80ch;
+	max-width: 90ch;
 	line-height: 1.5;
 	font-family: "Segoe UI", "Helvetica", "Arial", sans-serif;
 	font-size: 110%;
 }
 
-section
-{
+section {
 	text-align: justify;
 	hyphens: auto;
 	break-after: page;
+	padding-left: 5ch;
+	padding-right: 5ch;
+	padding-top: 7pt;
+	padding-bottom: 14pt;
+	margin-bottom: 14pt;
+	border-radius: 2.5ch;
 }
 
-h2
-{
+h2 {
 	font-size: 1.5em;
 }
 
-dt
-{
+dt {
 	font-weight: bold;
 }
 
-.preview-image
-{
+.preview-image {
 	float: right;
 	clear: right;
 }
 
-.preview-image img
-{
+.preview-image img {
 	height: 192px;
+	outline: 14pt solid;
+	border-radius: 2.5ch;
+}
+
+.node {
+	float: right;
+	clear: right;
+}
+
+.node img {
+	zoom: 50%;
+	outline: 1rem solid;
+}
+
+a:link {
+	color: #458588;
+}
+
+a:visited {
+	color: #b16286;
+}
+
+a:active {
+	color: #cc241d;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #282828;
+		color: #ebdbb2;
+	}
+
+	section {
+		background-color: #3c3836;
+	}
+
+	.preview-image img {
+		outline-color: #282828;
+		background-color: #282828;
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: #fbf1c7;
+		color: #3c3836;
+	}
+
+	section {
+		background-color: #ebdbb2;
+	}
+
+	.preview-image img {
+		outline-color: #fbf1c7;
+		background-color: #fbf1c7;
+	}
 }

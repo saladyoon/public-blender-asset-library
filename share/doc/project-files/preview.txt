@@ -6,10 +6,11 @@ It's a necessary part of the library, but because of that, it's not
 allowed to include anything that could otherwise go against its limited
 role.
 
-Currently, this file has the following 44 assets:
+Currently, this file has the following 46 assets:
     - 16 Materials with 9 Grease Pencil Materials;
-    - 10 Collections:
-        - 6 Props,
+    - 11 Collections:
+        - 7 Props,
         - 4 Lights;
     - 6 Scenes;
-    - 3 Worlds.
+    - 3 Worlds;
+    - 1 Node Group.

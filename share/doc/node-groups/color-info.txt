@@ -1,0 +1,18 @@
+The Color Info node group provides a combined output of object's viewport color
+and a selected color attribute, depending on which one has a value.
+
+While it manages to work for objects without any color attributes, it might have
+some issues with completely black color attributes.
+
+By the way, if you want to rely on color attributes only, or use them for GLTF
+export, set the object's viewport color to black so it doesn't interfere.
+
+Outputs
+
+- Color
+    Outputs either object's viewport color, or a selected color attribute, or
+both of them multiplied.
+
+- Alpha
+    Outputs object's viewport alpha only if the selected color attribute is
+completely black, otherwise outputs multiplied alphas.

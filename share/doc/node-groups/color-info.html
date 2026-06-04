@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<!-- color-info.html | CC0 | github.com/saladyoon/blender-library -->
+<html lang="en">
+  <head>
+    <title>Color Info Node Group</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="../stylesheet.css"/>
+    <h1>Color Info Node Group</h1>
+    <figure class="node">
+      <picture>
+        <source srcset="color-info.light.png"
+            media="(prefers-color-scheme: light)"/>
+        <source srcset="color-info.dark.png"
+            media="(prefers-color-scheme: dark)"/>
+        <img src="color-info.light.png"
+            alt="Color Info node."/>
+      </picture>
+    </figure>
+    <p>
+      The <i>Color Info</i>
+      node group provides a combined output of object's viewport color
+      and a selected color attribute, depending on which one has a value.
+    </p>
+    <p>
+      While it manages to work for objects without any color attributes, it
+      might have some issues with completely black color attributes.
+    </p>
+    <p>
+      By the way, if you want to rely on color attributes only, or use them for
+      GLTF export, set the object's viewport color to black so it doesn't
+      interfere.
+    </p>
+    <section>
+      <h2 id="outputs">Outputs</h2>
+      <dl>
+        <dt>Color</dt>
+        <dd>
+          <p>
+            Outputs either object's viewport color, or a selected color
+            attribute, or both of them multiplied.
+          </p>
+        </dd>
+        <dt>Alpha</dt>
+        <dd>
+          <p>
+            Outputs object's viewport alpha only if the selected color
+            attribute is completely black, otherwise outputs multiplied alphas.
+          </p>
+        </dd>
+      </dl>
+    </section>
+  </body>
+</html>
